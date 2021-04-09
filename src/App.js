@@ -1,7 +1,6 @@
-/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import "./App.css";
-import githubLogo from "./github-logo";
+import GameResults from "./GameResults";
 
 const fetchJobsByQueries = (
   { search, location, remote, fullTime },
@@ -95,7 +94,6 @@ function App() {
       <header className="app-header">
         {/* Github logo & app name*/}
         <div className="name-logo">
-          {githubLogo}
           <h1>Github Jobs</h1>
         </div>
         <p>
@@ -175,21 +173,14 @@ function App() {
               <div className="status-message">{fetchStatus}</div>
             )}
             {jobsData.map((job) => (
-              <article key={job.id} className="job-card">
-                <div className="company-logo">
-                  {job.company_logo ? (
-                    <img src={job.company_logo} alt={job.company} />
-                  ) : (
-                    job.company[0]
-                  )}
-                </div>
-                <ul className="info">
-                  <li className="company-name">{job.company}</li>
-                  <li className="ocupation">{job.title}</li>
-                  <li className="info-item">{job.location}</li>
-                  <li className="info-item job-type">{job.type}</li>
-                </ul>
-              </article>
+              <GameResults
+                key={job.id}
+                logo={job.company_logo}
+                company={job.company}
+                occupation={job.title}
+                location={job.location}
+                type={job.type}
+              />
             ))}
           </div>
         </section>
@@ -200,7 +191,8 @@ function App() {
         <a
           href="https://junocollege.com/"
           rel="nooppener noreferrer"
-          target="_blank">
+          target="_blank"
+        >
           Copyright © Juno College
         </a>
       </footer>

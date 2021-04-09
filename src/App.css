@@ -232,6 +232,13 @@ html {
   --green: #3eda82;
 }
 
+a {
+  text-decoration: none;
+  color: var(--light-gray);
+}
+li {
+  list-style: none;
+}
 .wrapper {
   color: var(--white);
   font-family: "Spartan", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -430,7 +437,7 @@ html {
 .app-main .results-section .job-card .company-name {
   color: var(--white);
   flex-basis: 100%;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
   margin: 10px 0 12px;
   text-align: left;
@@ -438,11 +445,14 @@ html {
 }
 
 .app-main .results-section .job-card .company-name {
-  font-size: 12px;
+  font-size: 18px;
   margin: 0;
   color: var(--light-gray);
 }
 
+.company-name a {
+  border-bottom: 1px var(--green) solid;
+}
 .app-main .results-section .job-card .ocupation:hover {
   color: var(--desaturated-dark-cyan);
 }
@@ -477,7 +487,7 @@ html {
 
 .app-main .results-section .cards-container .job-card .company-logo {
   position: absolute;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   font-size: 24px;
   font-weight: 700;

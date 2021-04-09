@@ -9,7 +9,11 @@ function GameResults(props) {
         )}
       </div>
       <ul className="info">
-        <li className="company-name">Company:{props.company}</li>
+        <li className="company-name">
+          <a href={props.url} target="_blank">
+            {props.company}
+          </a>
+        </li>
         <li className="ocupation">{props.occupation}</li>
         <li className="info-item">{props.location}</li>
         <li className="info-item job-type">{props.type}</li>

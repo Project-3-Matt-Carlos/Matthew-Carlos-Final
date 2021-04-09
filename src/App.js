@@ -84,7 +84,7 @@ function App() {
     if (type === "checkbox") {
       return setFormData((prev) => ({ ...prev, [`${name}`]: checked }));
     }
-
+    console.log(name, value, type, checked);
     setFormData((prev) => ({ ...prev, [`${name}`]: value }));
   };
 
@@ -177,6 +177,7 @@ function App() {
                 key={job.id}
                 logo={job.company_logo}
                 company={job.company}
+                url={job.company_url}
                 occupation={job.title}
                 location={job.location}
                 type={job.type}

@@ -181,6 +181,7 @@ function App() {
                 occupation={job.title}
                 location={job.location}
                 type={job.type}
+                apply={job.url}
               />
             ))}
           </div>

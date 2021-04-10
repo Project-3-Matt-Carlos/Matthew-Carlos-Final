@@ -364,7 +364,9 @@ li {
   margin-top: 24px;
   color: var(--white);
 }
-
+.submit-button {
+  background: var(--green);
+}
 .app-main .results-section {
   display: flex;
   flex-direction: column;
@@ -433,7 +435,7 @@ li {
   flex-shrink: 0;
 }
 
-.app-main .results-section .job-card .ocupation,
+.app-main .results-section .ocupation,
 .app-main .results-section .job-card .company-name {
   color: var(--white);
   flex-basis: 100%;
@@ -443,16 +445,24 @@ li {
   text-align: left;
   text-transform: capitalize;
 }
-
+.apply-info {
+  flex-basis: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.apply-info a:hover {
+  color: var(--green);
+}
 .app-main .results-section .job-card .company-name {
   font-size: 18px;
   margin: 0;
   color: var(--light-gray);
 }
 
-.company-name a {
+.company-name a:hover {
   border-bottom: 1px var(--green) solid;
 }
+
 .app-main .results-section .job-card .ocupation:hover {
   color: var(--desaturated-dark-cyan);
 }
@@ -463,11 +473,10 @@ li {
   margin-right: 9px;
   margin-bottom: 4px;
   color: var(--light-cyan);
-  font-size: 12px;
+  font-size: 18px;
 }
 
-.app-main .results-section .job-card .info-item::after {
-  content: "";
+.info-item::after {
   display: none;
   width: 5px;
   height: 5px;
@@ -475,10 +484,12 @@ li {
   background-color: var(--light-cyan);
   margin-left: 9px;
 }
-
-.app-main .results-section .job-card .info-item:last-child::after {
-  display: none;
+.info-dot::after {
+  content: "";
 }
+/* .app-main .results-section .job-card .info-item:last-child::after {
+  display: none;
+} */
 
 .app-main .results-section .job-card .info-item.job-type {
   color: var(--green);

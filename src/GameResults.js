@@ -15,8 +15,13 @@ function GameResults(props) {
           </a>
         </li>
         <li className="ocupation">{props.occupation}</li>
-        <li className="info-item">{props.location}</li>
+        <li className="info-item info-dot ">{props.location}</li>
         <li className="info-item job-type">{props.type}</li>
+        <li className="apply-info">
+          <a href={props.apply} target="_blank">
+            Learn More
+          </a>
+        </li>
       </ul>
     </article>
   );

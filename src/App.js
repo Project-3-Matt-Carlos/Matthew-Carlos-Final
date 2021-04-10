@@ -135,7 +135,7 @@ function App() {
               />
             </label>
 
-            <label className="checkbox-label" htmlFor="full-time">
+            {/* <label className="checkbox-label" htmlFor="full-time">
               <input
                 onChange={handleInputChange}
                 value="on"
@@ -157,7 +157,7 @@ function App() {
                 id="remote"
               />
               <span>Remote</span>
-            </label>
+            </label> */}
 
             <button className="submit-button" type="submit">
               Search

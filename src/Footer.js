@@ -4,6 +4,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   return (
     <footer className="app-footer">
+      <h3>Created By</h3>
       <div className="footer-flex">
         <ul>
           <li>
@@ -20,8 +21,9 @@ function Footer() {
             <p>Matthew Whitely</p>
           </li>
         </ul>
-      </div>
-      <div className="footer-flex">
+        <ul>
+          <li>|</li>
+        </ul>
         <ul>
           <li>
             <a href="" target="_blank">
@@ -34,7 +36,7 @@ function Footer() {
             </a>
           </li>
           <li>
-            <p>Luis Carlos Berrera</p>
+            <p>Luis Carlos Barrero</p>
           </li>
         </ul>
       </div>

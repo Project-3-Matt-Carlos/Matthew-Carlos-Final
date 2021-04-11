@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Matthew-Carlos-Final/static/css/main.ea5b6e6b.chunk.css",
+    "main.js": "/Matthew-Carlos-Final/static/js/main.f34fef85.chunk.js",
+    "main.js.map": "/Matthew-Carlos-Final/static/js/main.f34fef85.chunk.js.map",
+    "runtime-main.js": "/Matthew-Carlos-Final/static/js/runtime-main.9965938c.js",
+    "runtime-main.js.map": "/Matthew-Carlos-Final/static/js/runtime-main.9965938c.js.map",
+    "static/js/2.bf5a0dee.chunk.js": "/Matthew-Carlos-Final/static/js/2.bf5a0dee.chunk.js",
+    "static/js/2.bf5a0dee.chunk.js.map": "/Matthew-Carlos-Final/static/js/2.bf5a0dee.chunk.js.map",
+    "static/js/3.1bd856df.chunk.js": "/Matthew-Carlos-Final/static/js/3.1bd856df.chunk.js",
+    "static/js/3.1bd856df.chunk.js.map": "/Matthew-Carlos-Final/static/js/3.1bd856df.chunk.js.map",
+    "index.html": "/Matthew-Carlos-Final/index.html",
+    "static/css/main.ea5b6e6b.chunk.css.map": "/Matthew-Carlos-Final/static/css/main.ea5b6e6b.chunk.css.map",
+    "static/js/2.bf5a0dee.chunk.js.LICENSE.txt": "/Matthew-Carlos-Final/static/js/2.bf5a0dee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9965938c.js",
+    "static/js/2.bf5a0dee.chunk.js",
+    "static/css/main.ea5b6e6b.chunk.css",
+    "static/js/main.f34fef85.chunk.js"
+  ]
+}

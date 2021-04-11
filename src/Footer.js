@@ -8,12 +8,15 @@ function Footer() {
       <div className="footer-flex">
         <ul>
           <li>
-            <a href="" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/matthew-whitely/"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
+            <a href="https://github.com/Matthew-Whitely" target="_blank">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>

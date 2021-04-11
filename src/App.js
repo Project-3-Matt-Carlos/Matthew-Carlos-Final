@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import GameResults from "./GameResults";
+import Footer from "./Footer";
 
 const fetchJobsByQueries = (
   { search, location, remote, fullTime },
@@ -84,7 +85,7 @@ function App() {
     if (type === "checkbox") {
       return setFormData((prev) => ({ ...prev, [`${name}`]: checked }));
     }
-    console.log(name, value, type, checked);
+
     setFormData((prev) => ({ ...prev, [`${name}`]: value }));
   };
 
@@ -189,15 +190,7 @@ function App() {
       </main>
 
       {/* App Footer */}
-      <footer className="app-footer">
-        <a
-          href="https://junocollege.com/"
-          rel="nooppener noreferrer"
-          target="_blank"
-        >
-          Copyright © Juno College
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }

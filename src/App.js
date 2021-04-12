@@ -136,30 +136,6 @@ function App() {
               />
             </label>
 
-            {/* <label className="checkbox-label" htmlFor="full-time">
-              <input
-                onChange={handleInputChange}
-                value="on"
-                checked={formData.fullTime}
-                type="checkbox"
-                name="fullTime"
-                id="full-time"
-              />
-              <span>Full time</span>
-            </label>
-
-            <label className="checkbox-label" htmlFor="remote">
-              <input
-                onChange={handleInputChange}
-                value="on"
-                checked={formData.remote}
-                type="checkbox"
-                name="remote"
-                id="remote"
-              />
-              <span>Remote</span>
-            </label> */}
-
             <button className="submit-button" type="submit">
               Search
             </button>

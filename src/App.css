@@ -323,16 +323,16 @@ li {
 }
 
 .app-main .search-form h3 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   margin-bottom: 12px;
 }
 
 .app-main .search-form input[type="text"] {
   background-color: var(--black-primary);
-  min-height: 28px;
+  min-height: 30px;
   padding: 5px 12px;
-  font-size: 10px;
+  font-size: 12px;
   font-family: "Spartan", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border: 1px solid var(--light-gray);
   color: var(--white);
@@ -548,12 +548,13 @@ li {
   font-size: 18px;
 }
 
-.footer-flex ul li a:hover {
-  color: white;
-}
-
 .footer-flex a {
   padding: 0 5px;
+  font-size: 20px;
+}
+
+.footer-flex a:hover {
+  color: white;
 }
 
 /* App Footer styles */

@@ -545,7 +545,6 @@ li {
   justify-content: center;
   padding: 0;
   margin: 5px;
-
   font-size: 18px;
 }
 
@@ -557,10 +556,6 @@ li {
   padding: 0 5px;
 }
 
-.dots {
-  list-style-type: disc;
-  padding-right: 5px;
-}
 /* App Footer styles */
 
 /* Media queries */
@@ -613,5 +608,15 @@ li {
     width: 75%;
     flex-shrink: 0;
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-flex ul:nth-child(2) {
+    display: none;
   }
 }

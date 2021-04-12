@@ -400,15 +400,15 @@ li {
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
-/* .app-main .results-section .cards-container::-webkit-scrollbar {
+.app-main .results-section .cards-container::-webkit-scrollbar {
   display: none;
-} */
+}
 
 /* Hide scrollbar for IE, Edge and Firefox */
-/* .app-main .results-section .cards-container {
-  -ms-overflow-style: none; /* IE and Edge 
-  scrollbar-width: none; Firefox
-} */
+.app-main .results-section .cards-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 .app-main .results-section .job-card {
   background-color: var(--black-secondary);
@@ -419,6 +419,10 @@ li {
   border-left: 5px solid var(--blue);
   margin-bottom: 48px;
   position: relative;
+}
+
+.results-section h2 {
+  color: var(--black-secondary);
 }
 
 .app-main .results-section .job-card:last-child {

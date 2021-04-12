@@ -29,12 +29,15 @@ function Footer() {
         </ul>
         <ul>
           <li>
-            <a href="" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/luis-carlos-barrero/"
+              target="_blank"
+            >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
           <li>
-            <a href="" target="_blank">
+            <a href="https://github.com/carlosbarrero" target="_blank">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>

@@ -63,8 +63,6 @@ function App() {
   const [formData, setFormData] = useState({
     search: "",
     location: "",
-    fullTime: false,
-    remote: false,
   });
 
   const handleSearchJobs = (e) => {
